@@ -1,4 +1,5 @@
 *{
+    color: rgb(255, 0, 0);
     padding: 0px;
     margin: 0px;
     font-family: 'Courier New', Courier, monospace;
@@ -9,24 +10,24 @@
     margin: auto;
     width: 700px;
     height: 700px;
-    background-color: antiquewhite;
-    border: 5px dashed #aa4;
+    background-color: rgb(14, 36, 236);
+    border: 5px dashed rgb(204, 18, 18);
 }
 #player{
-    background-color: blueviolet;
-    border:4px;
-    width: 40px;
-    height: 40px;
+    background-color: rgb(30, 205, 236);
+    border:3px;
+    width: 30px;
+    height: 30px;
     border-radius: 29px;
     position: absolute;
     transition: all 0.3s;
 }
 .pointer{
-    background-color: dimgrey;
+    background-color: rgb(86, 247, 148);
     height: 50px;
     margin-top: 30px;
     border-bottom: 0px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     text-align: center;
     padding: 10px 0px;
